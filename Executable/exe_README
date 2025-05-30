@@ -1,0 +1,5 @@
+#Request the ccfc_ndvi.exe file from Campbell Scientific
+
+#The version that this script is based on is dated March 7, 2022
+
+#Put the ccfc_ndvi.exe in this subfolder ("CCFC_Phenocam/Executable")
