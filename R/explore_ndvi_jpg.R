@@ -1,8 +1,14 @@
+#This script is OPTIONAL
+#It reads in the .jpg files. 
+#You can set an extent to crop images for calculating mean NDVI for that region of interest
+#Also includes a time series of the region of interest when multiple .jpg files
+#NOTE that NDVI from this script is not correct. Please use the explore_ndvi_csv.R file for correct NDVI values
+
 library('terra')
 library('ggplot2')
 
 #get list of all the NDVI images
-list_jpg_ndvi <- list.files(file.path("C:/Users/p6exk/Downloads/OneDrive_1_5-13-2025/"), #set directory of the data location
+list_jpg_ndvi <- list.files(file.path("/Data/"), #set directory of the data location
                             pattern = "NDVI.jpg",
                             full.names = TRUE,
                             recursive = TRUE)

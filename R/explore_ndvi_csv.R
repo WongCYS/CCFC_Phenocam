@@ -1,3 +1,7 @@
+#This script reads in the .csv files. 
+#You can set an extent to crop images for calculating mean NDVI for that region of interest
+#Also includes a time series of the region of interest when multiple .csv files
+
 library(terra)
 library(data.table)
 library(ggplot2)

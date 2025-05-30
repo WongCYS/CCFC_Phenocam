@@ -1,3 +1,7 @@
+#This script converts the .jpg images into .csv files using the ccfc_ndvi.exe program.
+#This must be run for any new images
+#If no new images, can skip this script and go straight to explore scripts
+
 library(terra)
 
 #get list of all the NDVI images
